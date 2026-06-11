@@ -5,6 +5,7 @@ uvicorn==0.32.0
 # База данных (ORM и асинхронный драйвер PostgreSQL)
 sqlmodel==0.0.22
 asyncpg==0.30.0
+greenlet==3.5.1
 
 # Безопасность и авторизация
 pyjwt[crypto]==2.10.1
