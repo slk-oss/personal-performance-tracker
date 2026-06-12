@@ -12,4 +12,6 @@ pyjwt[crypto]==2.10.1
 passlib[bcrypt]==1.7.4
 
 # Валидация данных
-pydantic==2.14.1
+# Валидация данных
+pydantic==2.13.0
+pydantic-settings==2.14.1
