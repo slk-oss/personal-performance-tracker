@@ -3,7 +3,8 @@ from contextlib import asynccontextmanager
 from app.database import engine
 from sqlmodel import SQLModel
 from app.models.user import User
-
+from app.models.habit import Habit
+from app.models.log import Log
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
